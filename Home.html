@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Course Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script/app.js" defer></script>
+</head>
+<body>
+
+    <h1>College Course Registration</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register For Class.html">Register For Class</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+
+        </ul>
+    </nav>
+
+    <h1>Authorize</h1>
+    <p id="welcomeMessage"></p>
+    <div id="notification" class="hidden"></div>
+    <div id="teacherActions" class="hidden">
+        <h2>Teacher Actions</h2>
+        <button><a href="Schedule.html" class="link-button">Update Courses</a></button>
+        <button><a href="Register For Class.html" class="link-button">Add Courses</a></button>
+    </div>
+    <div id="studentActions" class="hidden">
+        <h2>Student Actions</h2>
+        <button><a href="Login.html" class="link-button">Login</a></button>
+        <button><a href="Register For Class.html" class="link-button">Register For Class</a></button>
+        <button><a href="Schedule.html" class="link-button">View Schedule</a></button>
+    </div>
+
+    <script src="Script/Home.js"></script>
+</body>
+</html>
